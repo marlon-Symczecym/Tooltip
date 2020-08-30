@@ -8,7 +8,7 @@ Depois de tanto tempo planejando fazer isso, hoje eu tirei um tempo para fazer o
 
 ![Tooltip resultado](images/tooltip-result.jpg)
 
-O artigo explicando como foi feito, e explicando cada etapa, pode ser acessado no meu [linkedin]().
+O artigo explicando como foi feito, e explicando cada etapa, pode ser acessado no meu [linkedin](https://www.linkedin.com/pulse/tooltips-marlon-symczecym).
 
 ---
 
