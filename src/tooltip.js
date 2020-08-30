@@ -4,7 +4,7 @@ const tooltip = document.querySelector('.tooltip');
 window.addEventListener('mousemove', handleTooltip);
 
 function handleTooltip({ target, clientX, clientY, pageY }) {
-  if (target === button) {
+  if (target === element) {
     if (pageY < 80) {
       tooltip.style.display = 'block';
       tooltip.classList.add('bottom');
