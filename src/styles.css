@@ -1,0 +1,64 @@
+.element {
+  width: 200px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #f6bb07;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  outline: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.element:hover {
+  background-color: #ebb514;
+}
+
+.tooltip {
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  background-color: rgb(47, 47, 47);
+  border-radius: 4px;
+  position: absolute;
+  display: none;
+  z-index: 2;
+}
+
+.tooltip span {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.top::before {
+  content: '';
+  width: 25px;
+  height: 25px;
+  transform: rotateZ(45deg);
+  background-color: rgb(47, 47, 47);
+  position: absolute;
+  z-index: 1;
+  bottom: -10px;
+  left: 20px;
+  border-radius: 3px;
+}
+
+.bottom::before {
+  content: '';
+  width: 25px;
+  height: 25px;
+  transform: rotateZ(45deg);
+  background-color: rgb(47, 47, 47);
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  left: 20px;
+  border-radius: 3px;
+}
